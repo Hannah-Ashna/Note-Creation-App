@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
     	try {
 			std::string fileName = vm["start"].as<std::string>() + ".txt";
 			std::ofstream newFile (fileName);
-			newFile << "\nThis is some text...";
+			newFile << "";
 			newFile.close();
 			std::cout <<"\n... Success!\n";
     	}
